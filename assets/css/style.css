@@ -1,9 +1,9 @@
+/* universal selector */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
@@ -58,4 +58,69 @@ footer div {
 }
 footer a {
     color: #024e76;
+}
+
+/* global style */
+section {
+    padding: 60px;
+}
+
+/* Hero Style Start */
+.hero{
+    background-image: url(../images/hero-bg.jpg);
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    /* allows hero form to move out of normal flow */
+    position: relative;  
+}
+/* Hero Style End */
+
+/* Hero-form Style Start */
+.hero-form{
+    background-color: #fce138;
+    color: #024e76;
+    padding: 20px;
+    width: 500px;
+    /* border style */
+    /* Same as: border: solid 3px #024e76; */
+    border-style: solid;
+    border-width: 3px;
+    border-color: #024e76;
+    /* border style ends */
+    width: 500px;
+    color: #024e76;
+    position:absolute;
+    bottom: 120px;
+    right: 140px
+}
+
+.hero-form h3{
+    font-size: 24px;
+    margin: 0  
+}
+
+.hero-form p{
+    margin: 5px 0 15px 0;
+}
+.form-input{
+    border: solid 1px #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.hero-form label{
+    margin: 0 5px;
+}
+
+.hero-form button{
+    background-color:#024e76;
+    color:#fce138;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
 }
